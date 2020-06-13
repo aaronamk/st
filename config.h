@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Mono:size=10:antialias=true:autohint=true";
+static char *font = "mono:size=10:antialias=true:autohint=true";
 static int borderpx = 0;
 
 /*
@@ -44,8 +44,8 @@ static unsigned int tripleclicktimeout = 600;
 int allowaltscreen = 1;
 
 /* frames per second st should at maximum draw to the screen */
-static unsigned int xfps = 120;
-static unsigned int actionfps = 30;
+static unsigned int xfps = 60;
+static unsigned int actionfps = 60;
 
 /*
  * blinking timeout (set to 0 to disable blinking) for the terminal blinking
@@ -77,7 +77,7 @@ const int boxdraw_braille = 0;
 static int bellvolume = 0;
 
 /* default TERM value */
-char *termname = "st-256color";
+char *termname = "st";
 
 /*
  * spaces per tab
