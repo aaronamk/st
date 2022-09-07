@@ -7,6 +7,7 @@
  */
 static char *font = "mono:size=10:antialias=true:autohint=true";
 static int borderpx = 2;
+#define UNDERCURL_STYLE 1
 
 /*
  * What program is execed by st depends of these precedence rules:
